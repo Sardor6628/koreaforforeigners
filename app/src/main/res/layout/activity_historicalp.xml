@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#048Bd1"
+    tools:context="com.example.ibrokhimov.draft_final.culture">
+
+    <ScrollView
+        android:layout_width="344dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#048Bd1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="60dp"
+                    android:layout_weight="1"
+                    android:onClick="back"
+                    android:text="BACK" />
+
+                <Button
+                    android:id="@+id/map"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="goToMap"
+                    android:text="go to map" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gyeongbokgung"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="70dp"
+                app:srcCompat="@drawable/gyeongbokgung" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Built in 1395, Gyeongbokgung Palace is also commonly referred to as the Northern Palace because its location is furthest north when compared to the neighboring palaces of Changdeokgung (Eastern Palace) and Gyeonghuigung (Western Palace) Palace. Gyeongbokgung Palace is arguably the most beautiful, and remains the largest of all five palaces. " />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Bukchon Hanok Village"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/as"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="70dp"
+                app:srcCompat="@drawable/bukchon" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A representative attraction of Seoul, Bukchon Hanok Village shows the charm of Korea’s traditional buildings. The neighborhood where relatives of the royal family lived, the hanoks here are grand, providing beautiful scenes down every lane. To make the most of your visit, we recommend finding the “Eight Scenic Spots of Bukchon.” These eight locations are each unique but share the similarity of being breathtaking. Your souvenir photos will turn out great with these spots in the background!" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Gwanghwamun Gate"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="70dp"
+                app:srcCompat="@drawable/gwanghawun" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Built in 1395, this is the main and the largest gate leading to the Gyeongbokgung Palace, house of the royal dynasty. The construction has three arched entrances, the middle one for the king and the side ones for princes and officials." />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Jongmyo Shrine"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="70dp"
+                app:srcCompat="@drawable/jongmyo" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Built in 1395, this is the main and the largest gate leading to the Gyeongbokgung Palace, house of the royal dynasty. The construction has three arched entrances, the middle one for the king and the side ones for princes and officials."
+                tools:text="Jongmyo is a Confucian shrine dedicated to the perpetuation of memorial services for the deceased kings and queens of the Korean Joseon Dynasty. According to UNESCO, the shrine is the oldest royal Confucian shrine preserved and the ritual ceremonies continue a tradition established in the 14th century. Such shrines existed during the Three Kingdoms of Korea period, but these have not survived. The Jongmyo Shrine was added to the UNESCO World Heritage list in 1995." />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Jogyesa Temple"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="70dp"
+                app:srcCompat="@drawable/jogyesa" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Built in 1395, this is the main and the largest gate leading to the Gyeongbokgung Palace, house of the royal dynasty. The construction has three arched entrances, the middle one for the king and the side ones for princes and officials."
+                tools:text="The main temple of Korean Zen Buddhism is a majestic and elaborate building that is a treat for the eyes. It draws plenty of tourists who want to learn about Buddhist culture. " />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Donggung Palace and Wolji Pond in Gyeongju"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="70dp"
+                app:srcCompat="@drawable/donggung" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Donggung Palace and Wolji Pond in Gyeongju is an artificial pond in Gyeongju National Park, South Korea. It was part of the palace complex of ancient Silla. It was constructed by order of King Munmu in 674 CE. The pond is situated at the northeast edge of the Banwolseong palace site, in central Gyeongju. It is an oval shape; 200m from east to west and 180m from north to south. It contains three small islands."
+                tools:text="Donggung Palace and Wolji Pond in Gyeongju is an artificial pond in Gyeongju National Park, South Korea. It was part of the palace complex of ancient Silla. It was constructed by order of King Munmu in 674 CE. The pond is situated at the northeast edge of the Banwolseong palace site, in central Gyeongju. It is an oval shape; 200m from east to west and 180m from north to south. It contains three small islands." />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Cheonmachong"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="70dp"
+                app:srcCompat="@drawable/chemachong" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cheonmachong, formerly Tomb No.155 in south korea, is a tumulus located in Gyeongju, South Korea. The tomb was excavated in 1973 and is believed to date probably from the fifth century but perhaps from the sixth century CE. The tomb was for an unknown king of the Silla Kingdom."
+                tools:text="Cheonmachong, formerly Tomb No.155 in south korea, is a tumulus located in Gyeongju, South Korea. The tomb was excavated in 1973 and is believed to date probably from the fifth century but perhaps from the sixth century CE. The tomb was for an unknown king of the Silla Kingdom." />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

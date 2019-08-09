@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#048Bd1"
+    tools:context="com.example.ibrokhimov.draft_final.culture">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/white">
+
+        <ScrollView
+            android:layout_width="344dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:defaultFocusHighlightEnabled="false"
+            android:duplicateParentState="false"
+            android:keyboardNavigationCluster="false"
+            android:scrollbarAlwaysDrawHorizontalTrack="false"
+            android:scrollbarAlwaysDrawVerticalTrack="false"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chili Pickled Cabbage (Kimchi 김치)"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/kim"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="70dp"
+                    app:srcCompat="@drawable/kimchi" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="While there are many different kinds of kimchi, the most common version is made with napa cabbage that is preserved and lightly fermented in bright red chili flakes. Love kimchi and you’re on your way to being a Korean food connoisseur!  There were quite a few meals in Seoul where I settled for nothing more than rice and kimchi (and I was very happy).  Cost – comes free nearly every restaurant you eat at, but I bought a huge sack of homemade kimchi to eat with price for 5,000 Won ($4.39) – it must have been 1.5 kilos!" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Samgyeopsal (삼겹살)"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/as"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="70dp"
+                    app:srcCompat="@drawable/samgyopsal" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fatty slices of pork belly grilled before your nose is a South Korean foodie favorite. A few slabs of this ultra-tasty pork along with garnishes of lettuce leaves, garlic and chili paste, and you’ve got a flavor to cherish.  It’s not the healthiest South Korean food, but if you are a lover of pig, samgyeopsal is something you can’t miss eating when you’re in Korea!  Cost – about 8,000 Won ($7.00) per plate" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Pork Bulgogi (Daeji Bulgogi 불고기)"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="70dp"
+                    app:srcCompat="@drawable/bulgogi" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Another famous Korean specialty barbecued meat is known as Bulgogi. While it’s normally made from beef, bulgogi can also be made with thin strips of pork or chicken.  Before the meat is grilled, it’s marinated in sweet soy sauce with lots of garlic and sesame oil. The version I ate above was from the New Valley restaurant in Seoul that specializes in pork bulgogi known as Dwaeji Bulgogi.  As a Thai meat lover, this daeji bulgogi was a dish I couldn’t get enough of – highly recommended!  Cost – around 8,000 ($7.00) Won per plate" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Korean Barbecue (Gogigui 고기구이)"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="70dp"
+                    app:srcCompat="@drawable/barbecue" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="There’s no better way to spend an evening in Korea than sitting around a personal grill munching down a traditional Korean barbecue feast.  Order a few plates of meat, and you’ll be delivered a vast array of side dishes and the all-important pieces of lettuce, garlic, peppers, and chili pastes to fashion little meat wraps.  Note: One of the interesting things I learned eating Korean barbecue in Seoul was that you must order 2 or more plates of the same meat – you can’t order just 1 plate. In other words, if you go to eat with just 2 people, you’ll have to get 2 plates of pork belly, or 2 plates of beef – not 1 plate of pork belly and 1 plate of beef.  Cost – varies greatly depending on meat but in the 8,00o Won ($7.00) per person range"
+                    tools:text="There’s no better way to spend an evening in Korea than sitting around a personal grill munching down a traditional Korean barbecue feast.  Order a few plates of meat, and you’ll be delivered a vast array of side dishes and the all-important pieces of lettuce, garlic, peppers, and chili pastes to fashion little meat wraps.  Note: One of the interesting things I learned eating Korean barbecue in Seoul was that you must order 2 or more plates of the same meat – you can’t order just 1 plate. In other words, if you go to eat with just 2 people, you’ll have to get 2 plates of pork belly, or 2 plates of beef – not 1 plate of pork belly and 1 plate of beef.  Cost – varies greatly depending on meat but in the 8,00o Won ($7.00) per person range" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Hangover Stew (Haejangguk 해장국)"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="70dp"
+                    app:srcCompat="@drawable/stew" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The famous Korean hangover stew is something I was really excited to sample when I arrived in South Korea. It came in a piping hot earthenware dish.  There are a number of different variations of Haejangguk, but the one I ate was made with pork spine bones. The broth was rich and spicy, flavored with tender chunks or fatty pork and Korean chili paste.  Known to cure hangovers, after eating this masterpiece of Korean flavor, I suffered a Korean food hangover and all I wanted to do was collapse on a sofa and take a nap. One of the tastiest things I ate in Seoul!  Cost – 5,000 – 6,000 Won ($4.39 – $5.26))"
+                    tools:text="The famous Korean hangover stew is something I was really excited to sample when I arrived in South Korea. It came in a piping hot earthenware dish.  There are a number of different variations of Haejangguk, but the one I ate was made with pork spine bones. The broth was rich and spicy, flavored with tender chunks or fatty pork and Korean chili paste.  Known to cure hangovers, after eating this masterpiece of Korean flavor, I suffered a Korean food hangover and all I wanted to do was collapse on a sofa and take a nap. One of the tastiest things I ate in Seoul!  Cost – 5,000 – 6,000 Won ($4.39 – $5.26))" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Soft Tofu Stew (Sundubu Jjigae 순두부찌게)"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="70dp"
+                    app:srcCompat="@drawable/tofu" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A flaming hot pot of Sundubu Jjigae is a flavorful Korean dish. Made with super soft tofu, a few bits of seafood, addictive kimchi soup, and an egg thrown on top, there’s not much else as comforting on a cold rainy day.  This tofu stew is best enjoyed with a side of steamed rice and a few pickled vegetables.  Cost – 5,000 Won ($4.39)"
+                    tools:text="A flaming hot pot of Sundubu Jjigae is a flavorful Korean dish. Made with super soft tofu, a few bits of seafood, addictive kimchi soup, and an egg thrown on top, there’s not much else as comforting on a cold rainy day.  This tofu stew is best enjoyed with a side of steamed rice and a few pickled vegetables.  Cost – 5,000 Won ($4.39)" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Mixed Seafood Stew"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="70dp"
+                    app:srcCompat="@drawable/mixedstew" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Among the repertoire of South Korean jjigae hot chili infested stews is the massively flavorful seafood variation made with whatever kind of seafood is on hand all boiled in a hot earthenware pot of goodness.  Cost – 5,000 Won ($4.39)"
+                    tools:text="Among the repertoire of South Korean jjigae hot chili infested stews is the massively flavorful seafood variation made with whatever kind of seafood is on hand all boiled in a hot earthenware pot of goodness.  Cost – 5,000 Won ($4.39)" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Kimchi Stew (Kimchi Jjigae 김치찌개)"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="70dp"
+                    app:srcCompat="@drawable/kimchistew" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="South Korean food is unbelievably delicious, but if I could choose just one thing to eat over and over again, it would have to be kimchi jjigae.  I’m not alone, it happens to be one of the most beloved everyday dishes to eat in Seoul and it’s one of the most affordable complete dish meals to eat in Seoul.  Napa cabbage kimchi is boiled with chunks of fatty pork and a few other seasonings and ingredients and then brewed into a stew that boasts intense flavors and will have your belly craving for more!  Cost – 4,000 – 5,000 Won ($3.51 – $4.39)" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fish Stew (Saengseon Jjigae 생선찌개)"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="70dp"
+                    app:srcCompat="@drawable/fishstew" />
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="As a lover of fish, it was a joy to eat the same delicious Korean kimchi soup base made with fish. Though the fish was filled with bones, the flavor it provided was nothing short of outstanding!  Cost – 5,000 Won ($4.39)"
+                    tools:text="As a lover of fish, it was a joy to eat the same delicious Korean kimchi soup base made with fish. Though the fish was filled with bones, the flavor it provided was nothing short of outstanding!  Cost – 5,000 Won ($4.39)" />
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Spicy Stir Fried Octopus (Nakji Bokkeum 낙지볶음)"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="70dp"
+                    app:srcCompat="@drawable/octopus" />
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Koreans have a love affair with octopus. While I wasn’t able to try the famous live squirming octopus tentacles while in South Korea, I was able to get a taste of chopped octopus stir fried with a few assorted vegetables in red chili paste.  The flavor reminded me of Thai pad prik gaeng, heavy on the sweet red Korean chili paste.  Cost – 7,000 – 10,000 Won ($6.14 – $8.77)" />
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Korean Ox Bone Soup (Seolleongtang 설렁탕)"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="70dp"
+                    app:srcCompat="@drawable/soup" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ox bones simmered on low heat for hours and hours is the highlight of Korean seolleongtang. The dish is served plain, a few light noodles, slices of beef and green onions.  The broth is delivered to you unsalted and unseasoned so it’s up to you to add salt, pepper, chili paste and extra green onions to your own taste.  Cost – 5,000 – 6,000 Won ($4.39 – $5.26)" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Hotpot Mixed Rice (Dolsot Bibimbap 돌솥 비빔밥)"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="70dp"
+                    app:srcCompat="@drawable/mixedrice" />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Famous and widely available, bibimbap is like fried rice, but instead of being fried it’s just all mixed up like a salad. It’s the khao yam or khao kluk kaphi or Korean cuisine.  The dish consists of rice on the bottom, a few different kinds of sauteed vegetables, an egg, and toasted seaweed flakes and sesame seeds on top. If it’s not salty enough, you can normally add more gochujang chili paste to make it tastier.  Dolsot bibimbap is served in a scorching earthenware pot so every bite is extremely hot in temperature. Be sure to start mixing it immediately so the rice doesn’t get too crunchy burnt on the bottom!  Cost – 4,000 – 5,000 Won ($3.51 – $4.39)" />
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>

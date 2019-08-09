@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#048Bd1"
+    android:scrollbarAlwaysDrawHorizontalTrack="true"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    tools:context="com.example.ibrokhimov.draft_final.culture">
+
+    <ScrollView
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="70dp"
+                app:srcCompat="@drawable/culture1" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Identification. Koryo (918–1392) and Choson (1392–1910) were the last two Korean dynasties. Korean immigrants and their descendants in Russia, China, and Japan use the names of those dynasties as a reference for their ethnicity. Despite the continued use of Choson as a self-name in North Korea, the Japanese convention of referring to the Korean nation by that name (pronounced Chosen in Japanese) can be offensive to South Koreans because of its evocation of Japanese colonization of the nation (1910–1945).  Koreans share a common culture, but a sense of regionalism exists between northerners and southerners and between southeasterners and southwesterners in terms of customs and perceived personality characteristics. Some suggest that this regionalism dates back to Three Kingdoms of Koguryo (37 B.C.E. –668 C.E. ), Silla (57 B.C.E. –935 C.E. ), and Paekche (18 B.C.E. –660 C.E. ). In South Korea politicized regionalism has emerged between the southeastern (Kyongsang Province) and southwestern regions (Cholla Province) since the late 1960s as a result of an uneven pattern of development that benefits people in the southeast.  Location and Geography. South Korea occupies the southern half of the Korean peninsula, which protrudes about 620 miles (1,000 kilometers) southward from the Eurasian landmass between Soviet Siberia in the northeast and Chinese Manchuria to the north. About three thousand islands belong to Korea, among which the Province of Cheju Island is the largest. The total area of the peninsula, including the islands, is about 85,000 square miles (222,000 square kilometers), of which about 45 percent or about 38,000 square miles (99,000 square kilometers) constitutes the territory of South Korea.  Geopolitically, the peninsula is surrounded on three sides by the sea and by Russia, China, and Japan. Korea has suffered from the attempts of these neighboring countries to dominate it, particularly in the twentieth century. Each of them considers Korea to be of major importance to its own security, and since 1945 the United States has had a major security interest in the nation. The peninsula was divided at the 38th Parallel in an agreement between the United States and the Soviet Union at the end of the World War II. Subsequently, the Military Demarcation Line established by the Armistice Agreement of 1953 to bring a cease-fire to the Korean War (1950–1953) replaced the boundary. A 2.5-mile (four-kilometer) wide strip of land that runs along the cease-fire line for about 150 miles (241 kilometers) is fixed at the Demilitarized Zone (DMZ) as the no man's land between North Korea and South Korea.  Korea is mountainous, and only about 20 percent of the land in the south is flat enough for farming. Seoul, the capital, is in the northwestern part of the country on the Han River, which flows toward the Yellow Sea. Seoul was first established as the walled capital of the Choson Dynasty in 1394. Before Japan colonized Korea in 1910, Seoul was the first city in east Asia to have electricity, trolley cars, a water system, telephones, and telegraphs. Seoul has grown into a metropolis of more than ten million residents. The palaces, shrines, and other vestiges of the Choson Dynasty are still prominent features of the city north of the Han River, serving as major tourist attractions. In the last few decades, the area south of the Han River has built trendy commercial centers and high-rise condominium  " />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

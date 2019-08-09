@@ -1,0 +1,178 @@
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3F51B5"
+        android:padding="20dp">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:layout_centerVertical="true"
+         android:orientation="horizontal">
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="false"
+             android:layout_centerInParent="false"
+             android:layout_centerVertical="false"
+             android:orientation="vertical">
+
+             <Button
+                 android:id="@+id/seoul"
+                 style="@style/Widget.AppCompat.Button.Borderless"
+                 android:layout_width="150dp"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="5dp"
+                 android:onClick="onClick"
+                 android:padding="5dp"
+                 android:text="Seoul"
+                 android:textColor="@android:color/white"
+                 tools:text="Seoul" />
+
+             <Button
+                 android:id="@+id/busan"
+                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                 android:layout_width="150dp"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="5dp"
+                 android:onClick="onClick"
+                 android:padding="5dp"
+                 android:text="Busan"
+                 android:textColor="@android:color/white" />
+
+             <Button
+                 android:id="@+id/incheon"
+                 style="@style/Widget.AppCompat.Button.Borderless"
+                 android:layout_width="150dp"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="5dp"
+                 android:onClick="onClick"
+                 android:padding="5dp"
+                 android:text="Incheon"
+                 android:textColor="@android:color/white" />
+
+             <Button
+                 android:id="@+id/daegu"
+                 style="@style/Widget.AppCompat.Button.Borderless"
+                 android:layout_width="150dp"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="5dp"
+                 android:onClick="onClick"
+                 android:padding="5dp"
+                 android:text="Daegu"
+                 android:textColor="@android:color/white" />
+
+             <Button
+                 android:id="@+id/gwangju"
+                 style="@style/Widget.AppCompat.Button.Borderless"
+                 android:layout_width="150dp"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="5dp"
+                 android:onClick="onClick"
+                 android:padding="5dp"
+                 android:text="Gwangju"
+                 android:textColor="@android:color/white" />
+
+             <Button
+                 android:id="@+id/suwon"
+                 style="@style/Widget.AppCompat.Button.Borderless"
+                 android:layout_width="150dp"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="5dp"
+                 android:onClick="onClick"
+                 android:padding="5dp"
+                 android:text="Suwon"
+                 android:textColor="@android:color/white" />
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+
+             <Button
+                 android:id="@+id/daejon"
+                 style="@style/Widget.AppCompat.Button.Borderless"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="5dp"
+                 android:onClick="onClick"
+                 android:padding="5dp"
+                 android:text="Daejeon"
+                 android:textColor="@android:color/white"
+                 tools:text="Daejeon" />
+
+             <Button
+                 android:id="@+id/ulsan"
+                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="5dp"
+                 android:onClick="onClick"
+                 android:padding="5dp"
+                 android:text="Ulsan"
+                 android:textColor="@android:color/white" />
+
+             <Button
+                 android:id="@+id/changwon"
+                 style="@style/Widget.AppCompat.Button.Borderless"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="5dp"
+                 android:onClick="onClick"
+                 android:padding="5dp"
+                 android:text="Changwon"
+                 android:textColor="@android:color/white" />
+
+             <Button
+                 android:id="@+id/goyang"
+                 style="@style/Widget.AppCompat.Button.Borderless"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="5dp"
+                 android:onClick="onClick"
+                 android:padding="5dp"
+                 android:text="goyang"
+                 android:textColor="@android:color/white" />
+
+             <Button
+                 android:id="@+id/jeju"
+                 style="@style/Widget.AppCompat.Button.Borderless"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="5dp"
+                 android:onClick="onClick"
+                 android:padding="5dp"
+                 android:text="jeju city"
+                 android:textColor="@android:color/white" />
+
+             <Button
+                 android:id="@+id/sejong"
+                 style="@style/Widget.AppCompat.Button.Borderless"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="5dp"
+                 android:onClick="onClick"
+                 android:padding="5dp"
+                 android:text="Sejong city"
+                 android:textColor="@android:color/white" />
+         </LinearLayout>
+
+     </LinearLayout>
+
+     <TextView
+         android:id="@+id/textView18"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="14dp"
+         android:text="Please choose a city"
+         android:textColor="@android:color/white"
+         android:textSize="24sp"
+         android:textStyle="bold" />
+
+ </RelativeLayout>
