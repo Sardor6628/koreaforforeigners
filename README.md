@@ -1,4 +1,4 @@
-#Korea for Foreigners
+Korea for Foreigners
 
 Key words: Java, Database, Android Studio, Mobile Application, Firebase Database, Firebase storage, Google map, Weather app, Korea for everyone.
 
